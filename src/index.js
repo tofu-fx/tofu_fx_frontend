@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 //Imports All Components
 import Home from './components/Home.js';
-import NavigateBar from './components/NavigateBar.js';
 
 
 ReactDOM.render(
