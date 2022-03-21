@@ -42,12 +42,12 @@
   text-decoration: none;
   color: white;
   font-size: 14px;
-  margin-right: 16px;
+  margin-right: 30px;
 }
 
 .NavigateBar .right-side button{
   display: none;
-  margin-right: 16px;
+  margin-right: 30px;
 }
 
 .NavigateBar .right-side #hidden{
@@ -59,7 +59,7 @@
 }
 
 .NavigateBar .right-side .images img{
-  margin-right: 16px;
+  margin-right: 30px;
   height: 25px;
 }
 
