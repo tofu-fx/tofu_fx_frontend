@@ -12,9 +12,9 @@ function About() {
       <b><div class="intro-container-header">TOFU</div></b>
       <div class="intro-container-socials">
         <a class="intro-container-social" href="/"><img src={instagram_logo} width="30" alt="instagram"/></a>
-        <a class="intro-container-social" href="https://twitter.com/sheluvssinners"><img src={twitter_logo} width="30" alt="twitter"/></a>
-        <a class="intro-container-social" href="https://www.behance.net/cozmoxxix"><img src={behance_logo} width="30" alt="behance"/></a>
-        <a class="intro-container-social" href="https://www.youtube.com/channel/UClhh5r9qXFIMuB-G6AuRjAQ"><img src={youtube_logo} width="30" alt="youtube"/></a>
+        <a class="intro-container-social" href="https://twitter.com/sheluvssinners" target="_blank" rel="noopener noreferrer"><img src={twitter_logo} width="30" alt="twitter"/></a>
+        <a class="intro-container-social" href="https://www.behance.net/cozmoxxix" target="_blank" rel="noopener noreferrer"><img src={behance_logo} width="30" alt="behance"/></a>
+        <a class="intro-container-social" href="https://www.youtube.com/channel/UClhh5r9qXFIMuB-G6AuRjAQ" target="_blank" rel="noopener noreferrer"><img src={youtube_logo} width="30" alt="youtube"/></a>
       </div>
       <div class="intro-container-text">
         {about}
