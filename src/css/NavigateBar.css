@@ -91,6 +91,25 @@
 /* Responsive Navbar Functionality */
 
 @media only screen and (max-width: 1000px) {
+  .NavigateBar {
+    height: 60px;
+  }
+
+  .NavigateBar .left-side .images img{
+    margin-left: 6px;
+    height: 37px;
+  }
+
+  .NavigateBar .right-side .images img{
+    margin-right: 23px;
+    height: 19px;
+  }
+
+  .NavigateBar .right-side button{
+    display: none;
+    margin-right: 23px;
+  }
+
   .NavigateBar .right-side button{
     display: flex;
   }
@@ -102,7 +121,7 @@
   .NavigateBar .right-side #hidden {
     position: absolute;
     left: 0px;
-    top: 80px;
+    top: 60px;
     height: 160px;
     max-height: 180px;
     width: 100%;
