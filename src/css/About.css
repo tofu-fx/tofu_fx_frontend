@@ -1,7 +1,8 @@
 .intro-container {
   padding-top: 240px;
   padding-left: 20px;
-  width: 800px;
+  width: 90%;
+  max-width: 800px;
 }
 
 .intro-container-header {
