@@ -1,4 +1,6 @@
 import React from 'react';
+import '../css/About.css';
+
 import instagram_logo from './images/instagram.png';
 import twitter_logo from './images/twitter.png';
 import behance_logo from './images/behance.png';
