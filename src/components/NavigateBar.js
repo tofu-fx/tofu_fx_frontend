@@ -1,7 +1,7 @@
 import React from 'react';
-import user_logo from './user_logo.png';
-import dragon_logo from './dragon_logo.png';
-import shopping_cart from './shopping_cart.png';
+import user_logo from './images/user_logo.png';
+import dragon_logo from './images/dragon_logo.png';
+import shopping_cart from './images/shopping_cart.png';
 
 function NavigateBar() {
   return(

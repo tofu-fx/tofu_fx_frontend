@@ -1,7 +1,7 @@
 body {
   padding:0;
   margin:0;
-  background-image: url("./components/background.png");
+  background-image: url("./components/images/background.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -11,6 +11,7 @@ body {
   background-color: black;
   overflow: auto;
   width: 100%;
+  position: fixed;
 }
 
 .navbar-img-left img{
@@ -56,4 +57,45 @@ body {
 .navbar-link:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+
+.intro-container {
+  padding-top: 160px;
+  padding-left: 80px;
+  padding-right: 600px;
+}
+
+.intro-container-header {
+  font-size: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.intro-container-socials {
+  padding-left: 95px;
+}
+
+.intro-container-social {
+  padding-left: 20px;
+}
+
+.intro-container-text {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+  color: white;
+}
+
+.featured-work {
+  background-color: black;
+  margin-top: 230px;
+}
+
+.featured-work-header {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-bottom: 1000px;
 }
