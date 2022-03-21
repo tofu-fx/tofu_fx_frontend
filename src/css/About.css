@@ -26,7 +26,7 @@
   padding-top: 30px;
   color: white;
   /* font-size: 20px; */
-  letter-spacing: 0.5px;
+  /* letter-spacing: 0.5px; */
 }
 
 @font-face {
@@ -48,11 +48,20 @@
 @media only screen and (max-width: 1000px) {
   .intro-container .title {
     font-family: "Akira Expanded";
-    font-size: 80px;
+    font-size: 90px;
     color: white;
   }
 
   .intro-container .socials {
-    padding-left: 55px;
+    padding-left: 73px;
+  }
+
+  .intro-container .about-text {
+    /* font-family: Verdana, Geneva, sans-serif; */
+    font-family: "Work Sans";
+    padding-top: 22px;
+    color: white;
+    font-size: 14px;
+    /* letter-spacing: 0.4px; */
   }
 }
