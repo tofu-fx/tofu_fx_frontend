@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/About.css';
+import '../fonts/AkiraExpanded.otf';
 
 import instagram_logo from './images/instagram.png';
 import twitter_logo from './images/twitter.png';
