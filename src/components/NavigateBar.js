@@ -19,11 +19,11 @@ function NavigateBar() {
       </div>
       <div className="right-side">
         <div className="links" id={ showLinks ? "hidden" : "" }>
-          <b><a href="/">HOME</a></b>
-          <b><a href="/">FEATURED</a></b>
-          <b><a href="/">SHOP</a></b>
-          <b><a href="/">COMMISSIONS</a></b>
-          <b><a href="/">CONTACT</a></b>
+          <b><a href="/" className="hover-underline-animation">HOME</a></b>
+          <b><a href="/" className="hover-underline-animation">FEATURED</a></b>
+          <b><a href="/" className="hover-underline-animation">SHOP</a></b>
+          <b><a href="/" className="hover-underline-animation">COMMISSIONS</a></b>
+          <b><a href="/" className="hover-underline-animation">CONTACT</a></b>
         </div>
         <button onClick={() => setShowLinks(!showLinks)}> <ReorderIcon /></button>
         <div className="images">
