@@ -106,11 +106,8 @@
   }
 
   .NavigateBar .right-side button{
-    display: none;
+    /* display: none; */
     margin-right: 23px;
-  }
-
-  .NavigateBar .right-side button{
     display: flex;
   }
 

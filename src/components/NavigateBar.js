@@ -14,7 +14,7 @@ function NavigateBar() {
     <div className="NavigateBar">
       <div className="left-side">
         <div className="images">
-          <a href="/cart"><img src={dragon_logo} alt="tofu-logo"/></a>
+          <a href="/"><img src={dragon_logo} alt="tofu-logo"/></a>
         </div>
       </div>
       <div className="right-side">
