@@ -3,5 +3,6 @@ body {
   margin:0;
   background-image: url("./components/images/background.png");
   background-repeat: no-repeat;
+  background-size: 1500px;
   background-attachment: fixed;
 }
