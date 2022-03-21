@@ -109,6 +109,12 @@
     /* display: none; */
     margin-right: 23px;
     display: flex;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
   }
 
   .NavigateBar .right-side .links {

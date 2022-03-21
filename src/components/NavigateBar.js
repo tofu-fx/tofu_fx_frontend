@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import '../css/NavigateBar.css';
-import ReorderIcon from '@material-ui/icons/Reorder';
 
 import user_logo from './images/user_logo.png';
 import dragon_logo from './images/dragon_logo.png';
 import shopping_cart from './images/shopping_cart.png';
+import dropdown_icon from './images/dropdown.png';
 
 function NavigateBar() {
 
@@ -25,7 +25,7 @@ function NavigateBar() {
           <b><a href="/" className="hover-underline-animation">COMMISSIONS</a></b>
           <b><a href="/" className="hover-underline-animation">CONTACT</a></b>
         </div>
-        <button onClick={() => setShowLinks(!showLinks)}> <ReorderIcon /></button>
+        <button onClick={() => setShowLinks(!showLinks)}> <img src={dropdown_icon} height="19" alt="options"/></button>
         <div className="images">
           <a href="/cart"><img src={shopping_cart} alt="cart"/></a>
           <a href="/"><img src={user_logo} alt="profile"/></a>
