@@ -10,15 +10,13 @@ const about = "I am an 19 year old Graphics Designer from the United States that
 
 function About() {
   return(
-    <div class="intro-container">
-      <b><div class="intro-container-header">TOFU</div></b>
-      <div class="intro-container-socials">
-        <a class="intro-container-social" href="/"><img src={instagram_logo} width="30" alt="instagram"/></a>
-        <a class="intro-container-social" href="https://twitter.com/sheluvssinners" target="_blank" rel="noopener noreferrer"><img src={twitter_logo} width="30" alt="twitter"/></a>
-        <a class="intro-container-social" href="https://www.behance.net/cozmoxxix" target="_blank" rel="noopener noreferrer"><img src={behance_logo} width="30" alt="behance"/></a>
-        <a class="intro-container-social" href="https://www.youtube.com/channel/UClhh5r9qXFIMuB-G6AuRjAQ" target="_blank" rel="noopener noreferrer"><img src={youtube_logo} width="30" alt="youtube"/></a>
-      </div>
-      <div class="intro-container-text">
+    <div className="intro-container">
+      <b><div className="intro-container-header">TOFU</div></b>
+      <a href="/"><img src={instagram_logo} width="30" alt="instagram"/></a>
+      <a href="https://twitter.com/sheluvssinners" target="_blank" rel="noopener noreferrer"><img src={twitter_logo} width="30" alt="twitter"/></a>
+      <a href="https://www.behance.net/cozmoxxix" target="_blank" rel="noopener noreferrer"><img src={behance_logo} width="30" alt="behance"/></a>
+      <a href="https://www.youtube.com/channel/UClhh5r9qXFIMuB-G6AuRjAQ" target="_blank" rel="noopener noreferrer"><img src={youtube_logo} width="30" alt="youtube"/></a>
+      <div className="intro-container-text">
         {about}
       </div>
     </div>
