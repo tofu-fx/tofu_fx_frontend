@@ -4,7 +4,7 @@ import twitter_logo from './images/twitter.png';
 import behance_logo from './images/behance.png';
 import youtube_logo from './images/youtube.png';
 
-const about = "I am a 19 year old Graphics Designer from the united states that's been doing graphic designing for 2 years now. fdsjhi sdiufhiu huisdiufubf  u iu ui usii siisi i/ Lorem Ipsum the dog flew over the nest.";
+const about = "I am an 19 year old Graphics Designer from the United States that's been doing graphic designing for over two years now. I specialize in social media gaming branding and stream graphics. If you’re interested in my work and would like to commission me, send a message to one of my socials above.";
 
 function About() {
   return(
