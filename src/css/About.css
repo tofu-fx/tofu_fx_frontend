@@ -17,7 +17,8 @@
 
 .intro-container .socials img{
   width: 30px;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .intro-container .about-text {
@@ -46,6 +47,15 @@
 /* Responsive Navbar Functionality */
 
 @media only screen and (max-width: 1000px) {
+  .intro-container {
+    max-width: none;
+    width: 100%;
+    padding-left: 0px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+
   .intro-container .title {
     font-family: "Akira Expanded";
     font-size: 90px;
@@ -53,7 +63,7 @@
   }
 
   .intro-container .socials {
-    padding-left: 73px;
+    padding-left: 0px;
   }
 
   .intro-container .about-text {
