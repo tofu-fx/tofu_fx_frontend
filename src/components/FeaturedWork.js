@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/FeaturedWork.css';
 
 function FeaturedWork() {
   return(
