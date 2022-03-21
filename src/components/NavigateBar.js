@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import '../css/NavigateBar.css';
 
-import dragon_logo from './images/dragon_logo.png';
-import shopping_cart from './images/shopping_cart.png';
-import dropdown_icon from './images/dropdown.png';
+import dragon_logo from '../images/dragon_logo.png';
+import shopping_cart from '../images/shopping_cart.png';
+import dropdown_icon from '../images/dropdown.png';
 
 function NavigateBar() {
 
