@@ -3,7 +3,7 @@ import React from 'react';
 
 // Import Styling
 import '../css/FeaturedWork.css';
-import '../css/button_animations.css';
+import '../css/external/button_animations.css';
 
 // Import Featured
 import feat1 from '../images/featured/feat1.jpg';
