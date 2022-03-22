@@ -15,6 +15,9 @@
   position: relative;
 }
 
+#hidden .hover-underline-animation {
+  padding: 0px;
+}
 #hidden .hover-underline-animation:after {
   background: none;
 }
@@ -95,6 +98,9 @@
 /* Responsive Navbar Functionality */
 
 @media only screen and (min-width: 1000px) {
+  #hidden .hover-underline-animation {
+    padding: 31px;
+  }
   #hidden .hover-underline-animation:after {
     background: #8A32FF;
   }
