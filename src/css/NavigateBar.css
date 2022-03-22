@@ -15,6 +15,10 @@
   position: relative;
 }
 
+#hidden .hover-underline-animation:after {
+  background: none;
+}
+
 .hover-underline-animation:after {
   bottom: 0;
   content: "";
@@ -89,6 +93,12 @@
 
 
 /* Responsive Navbar Functionality */
+
+@media only screen and (min-width: 1000px) {
+  #hidden .hover-underline-animation:after {
+    background: #8A32FF;
+  }
+}
 
 @media only screen and (max-width: 1000px) {
   .NavigateBar {
