@@ -34,7 +34,9 @@ function FeaturedWork() {
         <img src={feat10} alt="featured_work" />
       </div>
       <div className="button-container">
-        <button className="button button--pan"><span>VIEW FULL PORTFOLIO</span></button>
+        <form action="https://www.behance.net/cozmoxxix" target="_blank" rel="noopener noreferrer">
+          <button className="button button--pan"><span>VIEW FULL PORTFOLIO</span></button>
+        </form>
       </div>
     </div>
   )
