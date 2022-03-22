@@ -5,9 +5,9 @@
 }
 
 .featured-work .title {
-  font-size: 48px;
+  font-size: 24px;
   text-align: center;
-  padding-top: 24px;
+  padding-top: 48px;
   padding-bottom: 24px;
   font-family: "Akira Expanded";
   color: white;
@@ -35,8 +35,8 @@
   }
 
   .featured-work .title {
-    font-size: 36px;
-    padding-top: 18px;
+    font-size: 18px;
+    padding-top: 36px;
     padding-bottom: 18px;
   }
 
