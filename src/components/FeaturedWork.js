@@ -5,7 +5,7 @@ import React from 'react';
 import '../css/FeaturedWork.css';
 
 // Import Featured
-import feat1 from '../images/featured/feat1.png';
+import feat1 from '../images/featured/feat1.jpg';
 
 function FeaturedWork() {
   return(
