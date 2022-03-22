@@ -1,12 +1,28 @@
 .featured-work {
   background-color: black;
-  margin-top: 230px;
+  height: 600px;
+  max-height: 600px;
 }
 
-.featured-work-header {
-  font-size: 50px;
+.featured-work .title {
+  font-size: 48px;
   text-align: center;
-  padding-top: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-family: "Akira Expanded";
   color: white;
+  /* background-color: orange; */
+}
+
+@font-face {
+  font-family: "Akira Expanded";
+  src: url("../fonts/AkiraExpanded.otf") format("truetype");
+}
+
+@media only screen and (max-width: 1000px) {
+  .featured-work .title {
+    font-size: 36px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
 }

@@ -1,20 +1,13 @@
+// Import React
 import React from 'react';
+
+// Import Styling
 import '../css/FeaturedWork.css';
 
 function FeaturedWork() {
   return(
-    <div class="featured-work">
-      <b><div class="featured-work-header">FEATURED WORK</div></b><br/>
-      <b><div class="featured-work-header">FEATURED WORK</div></b><br/>
-      <b><div class="featured-work-header">FEATURED WORK</div></b><br/>
-      <b><div class="featured-work-header">FEATURED WORK</div></b><br/>
-      <b><div class="featured-work-header">FEATURED WORK</div></b><br/>
-      <b><div class="featured-work-header">FEATURED WORK</div></b><br/>
-      <b><div class="featured-work-header">FEATURED WORK</div></b><br/>
-      <b><div class="featured-work-header">FEATURED WORK</div></b><br/>
-      <b><div class="featured-work-header">FEATURED WORK</div></b><br/>
-      <b><div class="featured-work-header">FEATURED WORK</div></b><br/>
-      <b><div class="featured-work-header">FEATURED WORK</div></b><br/>
+    <div className="featured-work">
+      <div className="title">FEATURED</div>
     </div>
   )
 }
