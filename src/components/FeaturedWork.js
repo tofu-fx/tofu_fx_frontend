@@ -3,6 +3,7 @@ import React from 'react';
 
 // Import Styling
 import '../css/FeaturedWork.css';
+import '../css/button_animations.css';
 
 // Import Featured
 import feat1 from '../images/featured/feat1.jpg';
@@ -31,6 +32,9 @@ function FeaturedWork() {
         <img src={feat8} alt="featured_work" />
         <img src={feat9} alt="featured_work" />
         <img src={feat10} alt="featured_work" />
+      </div>
+      <div className="button-container">
+        <button className="button button--pan"><span>VIEW FULL PORTFOLIO</span></button>
       </div>
     </div>
   )

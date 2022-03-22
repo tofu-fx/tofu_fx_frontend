@@ -1,25 +1,42 @@
 .featured-work {
   background-color: black;
-  height: 540px;
-  max-height: 540px;
+  height: 680px;
+  max-height: 680px;
 }
 
 .featured-work .title {
-  font-size: 24px;
+  font-size: 36px;
   text-align: center;
   padding-top: 48px;
-  padding-bottom: 24px;
   font-family: "Akira Expanded";
   color: white;
-  /* background-color: orange; */
+}
+
+.button-container {
+  position: relative;
+}
+.button.button--pan{
+  font-size: 16px;
+  color: white;
+  border: 2px solid white;
+  padding: 20px 40px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 * { box-sizing: border-box; }
-
 .main-carousel img{
-  padding-bottom: 32px;
   height: 400px;
   margin-left: 48px;
+}
+
+.main-carousel {
+  margin-top: 48px;
+  margin-bottom: 72px;
 }
 
 @font-face {
@@ -30,20 +47,29 @@
 @media only screen and (max-width: 1000px) {
   .featured-work {
     background-color: black;
-    height: 415px;
-    max-height: 415px;
+    height: 510px;
+    max-height: 510px;
   }
 
   .featured-work .title {
-    font-size: 18px;
+    font-size: 27px;
     padding-top: 36px;
-    padding-bottom: 18px;
+  }
+
+  .button.button--pan{
+    font-size: 12px;
+    padding: 15px 30px;
   }
 
   * { box-sizing: border-box; }
   .main-carousel img{
-    padding-bottom: 24px;
     height: 300px;
     margin-left: 36px;
+  }
+
+  .main-carousel {
+    margin-top: 36px;
+    margin-bottom: 54px;
+    background-color: orange;
   }
 }
