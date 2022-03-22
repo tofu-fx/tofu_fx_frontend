@@ -1,17 +1,25 @@
 .featured-work {
   background-color: black;
-  height: 600px;
-  max-height: 600px;
+  height: 540px;
+  max-height: 540px;
 }
 
 .featured-work .title {
   font-size: 48px;
   text-align: center;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-family: "Akira Expanded";
   color: white;
   /* background-color: orange; */
+}
+
+* { box-sizing: border-box; }
+
+.main-carousel img{
+  padding-bottom: 32px;
+  height: 400px;
+  margin-left: 48px;
 }
 
 @font-face {
@@ -20,9 +28,22 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .featured-work {
+    background-color: black;
+    height: 415px;
+    max-height: 415px;
+  }
+
   .featured-work .title {
     font-size: 36px;
-    padding-top: 9px;
-    padding-bottom: 9px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  * { box-sizing: border-box; }
+  .main-carousel img{
+    padding-bottom: 24px;
+    height: 300px;
+    margin-left: 36px;
   }
 }
