@@ -5,6 +5,7 @@
   height: 80px;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
+  transition: top 0.4s;
 }
 
 /* Underline Animation https://codepen.io/jstn/pen/mdoOZJ */
