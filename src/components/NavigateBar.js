@@ -10,7 +10,7 @@ function NavigateBar() {
   const [showLinks, setShowLinks] = useState(false);
 
   return(
-    <div className="NavigateBar">
+    <header className="NavigateBar" id="navbar">
       <div className="left-side">
         <div className="images">
           <a href="/"><img src={dragon_logo} alt="tofu-logo"/></a>
@@ -29,7 +29,7 @@ function NavigateBar() {
           <a href="/cart"><img src={shopping_cart} alt="cart"/></a>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

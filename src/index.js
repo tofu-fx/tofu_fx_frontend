@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import './custom_js/Navbar.js'
 
 //Imports All Components
 import Home from './components/Home.js';
