@@ -1,0 +1,32 @@
+.shop {
+  background-image: url("../images/shop_home_background.jpg");
+}
+
+.shop .title {
+  position: relative;
+  height: 140px;
+}
+.shop .title .text {
+  font-size: 36px;
+  text-align: center;
+  font-family: "Akira Expanded";
+  color: white;
+  width: 100%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .shop .title {
+    height: 105px;
+  }
+  .shop .title .text {
+    font-size: 27px;
+  }
+}
