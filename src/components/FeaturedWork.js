@@ -20,7 +20,7 @@ import feat10 from '../images/featured/feat10.jpg';
 function FeaturedWork() {
   return(
     <div className="featured-work">
-      <div className="title">FEATURED WORK</div>
+      <div className="title"><div className="text">FEATURED WORK</div></div>
       <div className="main-carousel" data-flickity='{ "wrapAround": true, "imagesLoaded": true, "groupCells": 1, "autoPlay": 7000 }'>
         <img src={feat1} alt="featured_work" />
         <img src={feat2} alt="featured_work" />
