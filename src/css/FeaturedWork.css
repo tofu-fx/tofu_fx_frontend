@@ -46,11 +46,6 @@
   margin-bottom: 32px;
 }
 
-@font-face {
-  font-family: "Akira Expanded";
-  src: url("../fonts/AkiraExpanded.otf") format("truetype");
-}
-
 @media only screen and (max-width: 1000px) {
   .featured-work .title {
     height: 105px;
