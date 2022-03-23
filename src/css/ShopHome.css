@@ -1,5 +1,6 @@
 .shop {
   background-image: url("../images/shop_home_background.jpg");
+  background-size: cover;
 }
 
 .shop .title {
