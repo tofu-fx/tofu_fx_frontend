@@ -3,7 +3,7 @@ import '../css/ShopHome.css';
 
 import ShopCategoryCard from './ShopCategoryCard.js';
 
-import example_card_background from '../images/shop_categories/example.jpg';
+import example_card_background from '../images/shop_categories/testing.jpg';
 
 
 function ShopHome() {
