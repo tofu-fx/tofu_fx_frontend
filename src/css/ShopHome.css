@@ -1,7 +1,7 @@
 .shop {
   background-color: #1c1c1c;
   background-size: cover;
-  padding-bottom: 150px; /* Temporary For Testing. DO NOT KEEP*/
+  padding-bottom: 200px; /* Temporary For Testing. DO NOT KEEP*/
 }
 
 .shop .title {
@@ -21,6 +21,31 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+.shop .categories {
+  /* background-color: orange; */
+  position: relative;
+  width: 100%;
+  justify-content: center;
+
+  display: flex;
+}
+
+.shop .categories .inner {
+  width: 1200px;
+  /* background-color: green; */
+}
+@media only screen and (max-width: 1250px) {
+  .shop .categories .inner {
+    width: 800px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .shop .categories .inner {
+    width: 450px;
+  }
+}
+
 
 
 
