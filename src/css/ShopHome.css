@@ -1,7 +1,7 @@
 .shop {
-  background-image: url("../images/shop_home_background.jpg");
+  background-color: #8A32FF;
   background-size: cover;
-  padding-bottom: 600px; /* Temporary For Testing. DO NOT KEEP*/
+  padding-bottom: 150px; /* Temporary For Testing. DO NOT KEEP*/
 }
 
 .shop .title {
