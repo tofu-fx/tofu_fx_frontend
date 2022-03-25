@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './custom_js/Navbar.js'
 
 //Imports All Components
-import Home from './components/Home.js';
+import HomePage from './components/HomePage.js';
 
 
 ReactDOM.render(
@@ -14,7 +14,7 @@ ReactDOM.render(
     <Router>
       <Routes>
 
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<HomePage />} />
 
       </Routes>
     </Router>

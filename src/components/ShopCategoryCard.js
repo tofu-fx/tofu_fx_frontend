@@ -1,13 +1,20 @@
 import React from 'react';
 import '../css/ShopCategoryCard.css';
 
-function ShopCategoryCard() {
+class ShopCategoryCard extends React.Component {
 
-  return(
-    <div className="shop-category-card">
-      CARD CONTENT
-    </div>
-  )
+  render() {
+    return(
+      <a href={this.props.href} className="shop-category-card" style={{backgroundImage: `url(${this.props.background})`}}>
+        <div className="card-footer">
+          <div className="card-title">
+            {this.props.card_name}
+          </div>
+        </div>
+      </a>
+    )
+  }
+
 }
 
 export default ShopCategoryCard;

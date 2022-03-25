@@ -5,9 +5,11 @@ import About from './About.js';
 import FeaturedWork from './FeaturedWork.js';
 import ShopHome from './ShopHome.js';
 
-const Home = function() {
+import '../css/HomePage.css';
+
+const HomePage = function() {
   return(
-    <div>
+    <div className="home-page">
       <NavigateBar/>
       <About/>
       <FeaturedWork/>
@@ -16,4 +18,4 @@ const Home = function() {
   );
 };
 
-export default Home;
+export default HomePage;
