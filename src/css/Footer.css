@@ -2,6 +2,8 @@
   background-color: #060606;
   margin: auto;
   text-align: center;
+  padding-top: 92px;
+  padding-bottom: 92px;
 }
 
 .footer .footer-title {
@@ -11,6 +13,7 @@
 }
 
 .footer .socials {
+  padding-top: 24px;
 }
 
 .footer .socials img{
@@ -22,6 +25,8 @@
 
 @media only screen and (max-width: 1000px) {
   .footer {
+    padding-top: 69px;
+    padding-bottom: 69px;
   }
 
   .footer .footer-title {
@@ -29,5 +34,6 @@
   }
 
   .footer .socials {
+    padding-top: 18px;
   }
 }

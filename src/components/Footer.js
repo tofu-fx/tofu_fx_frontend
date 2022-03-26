@@ -1,10 +1,10 @@
 import React from 'react';
 import '../css/Footer.css';
 
-import instagram_logo from '../images/instagram.png';
-import twitter_logo from '../images/twitter.png';
-import behance_logo from '../images/behance.png';
-import youtube_logo from '../images/youtube.png';
+import instagram_logo from '../images/instagram1.png';
+import twitter_logo from '../images/twitter1.png';
+import behance_logo from '../images/behance1.png';
+import youtube_logo from '../images/youtube1.png';
 
 
 const Footer = function() {
