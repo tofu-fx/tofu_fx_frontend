@@ -14,12 +14,17 @@
 
 .footer .socials {
   padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .footer .socials img{
   width: 30px;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+.footer .extra-text {
+  color: white;
 }
 
 
@@ -35,5 +40,6 @@
 
   .footer .socials {
     padding-top: 18px;
+    padding-bottom: 18px;
   }
 }

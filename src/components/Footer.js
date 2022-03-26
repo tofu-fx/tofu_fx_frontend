@@ -19,6 +19,9 @@ const Footer = function() {
         <a href="https://www.behance.net/cozmoxxix" target="_blank" rel="noopener noreferrer"><img src={behance_logo} alt="behance"/></a>
         <a href="https://www.youtube.com/channel/UClhh5r9qXFIMuB-G6AuRjAQ" target="_blank" rel="noopener noreferrer"><img src={youtube_logo} alt="youtube"/></a>
       </div>
+      <div className="extra-text">
+        © Tofu 2021, Website built by Jackson Valdez
+      </div>
     </div>
   );
 };
