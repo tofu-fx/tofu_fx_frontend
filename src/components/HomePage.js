@@ -4,6 +4,7 @@ import NavigateBar from './NavigateBar.js';
 import About from './About.js';
 import FeaturedWork from './FeaturedWork.js';
 import ShopHome from './ShopHome.js';
+import Footer from './Footer.js';
 
 import '../css/HomePage.css';
 
@@ -14,6 +15,7 @@ const HomePage = function() {
       <About/>
       <FeaturedWork/>
       <ShopHome/>
+      <Footer/>
     </div>
   );
 };

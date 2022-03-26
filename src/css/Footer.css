@@ -1,0 +1,33 @@
+.footer {
+  background-color: #060606;
+  margin: auto;
+  text-align: center;
+}
+
+.footer .footer-title {
+  font-family: "Akira Expanded";
+  font-size: 60px;
+  color: white;
+}
+
+.footer .socials {
+}
+
+.footer .socials img{
+  width: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .footer {
+  }
+
+  .footer .footer-title {
+    font-size: 45px;
+  }
+
+  .footer .socials {
+  }
+}
