@@ -25,6 +25,7 @@
 
 .footer .extra-text {
   color: white;
+  font-size: 16px;
 }
 
 
@@ -42,4 +43,10 @@
     padding-top: 18px;
     padding-bottom: 18px;
   }
+
+  .footer .extra-text {
+    color: white;
+    font-size: 12px;
+  }
+
 }
