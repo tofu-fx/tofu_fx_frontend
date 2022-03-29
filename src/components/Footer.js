@@ -20,7 +20,7 @@ const Footer = function() {
         <a href="https://www.youtube.com/channel/UClhh5r9qXFIMuB-G6AuRjAQ" target="_blank" rel="noopener noreferrer"><img src={youtube_logo} alt="youtube"/></a>
       </div>
       <div className="extra-text">
-        © Tofu 2022, Website built by <a href="https://twitter.com/JacksonValdez03" target="_blank" rel="noopener noreferrer">Jackson Valdez</a>
+        © Copyright Tofu 2022, Website built by <a href="https://twitter.com/JacksonValdez03" target="_blank" rel="noopener noreferrer">Jackson Valdez</a>
       </div>
     </div>
   );
