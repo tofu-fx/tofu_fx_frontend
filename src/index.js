@@ -8,6 +8,7 @@ import './custom_js/Navbar.js'
 //Imports All Components
 import HomePage from './components/HomePage.js';
 import AdminLogin from './components/AdminLogin.js';
+import AdminHome from './components/AdminHome.js';
 
 
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
 
         <Route path="/" element={<HomePage />} />
         <Route path="/admin-access" element={<AdminLogin />} />
+        <Route path="/admin-access/home" element={<AdminHome />} />
 
       </Routes>
     </Router>

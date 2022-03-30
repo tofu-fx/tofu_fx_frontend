@@ -8,7 +8,7 @@ function AdminLogin() {
 
   return (
     <div className="admin-login">
-      <form action="/admin/home">
+      <form action="/admin-access/home">
         <label>
           Admin Password
           <input type="text" name="password" />
