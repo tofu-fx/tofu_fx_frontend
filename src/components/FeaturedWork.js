@@ -13,15 +13,15 @@ class FeaturedWork extends React.Component {
 
   componentDidMount() {
     axios.get(`https://tofufx-backend.herokuapp.com/featured_work?api_key=${process.env.REACT_APP_TOFU_BACKEND_API_KEY}`)
-      .then(res => {
-        const image_urls = res.data.data.featured_images;
+      .then(response => {
+        const image_urls = response.data.data.featured_images;
         this.setState({ image_urls });
      })
   }
 
   render() {
     const image_urls = this.state.image_urls
-    
+
     return(
       <div className="featured-work">
         <div className="title"><div className="text">FEATURED WORK</div></div>
