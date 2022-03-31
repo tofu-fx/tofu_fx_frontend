@@ -10,7 +10,11 @@ import youtube_logo from '../images/youtube.png';
 
 class About extends React.Component {
   state = {
-    about_me: ""
+    about_me: "",
+    instagram_link: "",
+    twitter_link: "",
+    behance_link: "",
+    youtube_link: ""
   }
 
   componentDidMount() {
@@ -19,6 +23,15 @@ class About extends React.Component {
         const about_me = response.data.data;
         this.setState({ about_me });
      })
+
+    axios.get(`https://tofufx-backend.herokuapp.com/socials?api_key=${process.env.REACT_APP_TOFU_BACKEND_API_KEY}`)
+      .then(response => {
+        const instagram_link = response.data.instagram;
+        const twitter_link = response.data.twitter;
+        const behance_link = response.data.behance;
+        const youtube_link = response.data.youtube;
+        this.setState({ instagram_link, twitter_link, behance_link, youtube_link });
+    })
   }
 
   render() {
@@ -26,10 +39,10 @@ class About extends React.Component {
       <div className="intro-container">
         <b><div className="title">TOFU</div></b>
         <div className="socials">
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src={instagram_logo} alt="instagram"/></a>
-          <a href="https://twitter.com/sheluvssinners" target="_blank" rel="noopener noreferrer"><img src={twitter_logo} alt="twitter"/></a>
-          <a href="https://www.behance.net/cozmoxxix" target="_blank" rel="noopener noreferrer"><img src={behance_logo} alt="behance"/></a>
-          <a href="https://www.youtube.com/channel/UClhh5r9qXFIMuB-G6AuRjAQ" target="_blank" rel="noopener noreferrer"><img src={youtube_logo} alt="youtube"/></a>
+          <a href={this.state.instagram_link} target="_blank" rel="noopener noreferrer"><img src={instagram_logo} alt="instagram"/></a>
+          <a href={this.state.twitter_link} target="_blank" rel="noopener noreferrer"><img src={twitter_logo} alt="twitter"/></a>
+          <a href={this.state.behance_link} target="_blank" rel="noopener noreferrer"><img src={behance_logo} alt="behance"/></a>
+          <a href={this.state.youtube_link} target="_blank" rel="noopener noreferrer"><img src={youtube_logo} alt="youtube"/></a>
         </div>
 
         <div className="about-text">
