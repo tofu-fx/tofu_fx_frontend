@@ -17,14 +17,18 @@ class Footer extends React.Component {
   }
 
   componentDidMount() {
-    // axios.get(`https://tofufx-backend.herokuapp.com/socials?api_key=${process.env.REACT_APP_TOFU_BACKEND_API_KEY}`)
-    //   .then(response => {
-    //     const instagram_link = response.data.instagram;
-    //     const twitter_link = response.data.twitter;
-    //     const behance_link = response.data.behance;
-    //     const youtube_link = response.data.youtube;
-    //     this.setState({ instagram_link, twitter_link, behance_link, youtube_link });
-    // })
+    let google_sheet_id = "1dezRYzkCZ8VrfsbO2EKVoF9D_hIHsKAF_BuI7b83phA";
+    let selection_1 = "B5";
+    let selection_2 = "B8";
+
+    axios.get(`https://tofufx-backend.herokuapp.com/google_sheets/${selection_1}/${selection_2}/${google_sheet_id}?api_key=${process.env.REACT_APP_TOFU_BACKEND_API_KEY}`)
+      .then(response => {
+        const instagram_link = response.data.values[0][0];
+        const twitter_link = response.data.values[1][0];
+        const behance_link = response.data.values[2][0];
+        const youtube_link = response.data.values[3][0];
+        this.setState({ instagram_link, twitter_link, behance_link, youtube_link });
+    })
   }
 
   render() {
