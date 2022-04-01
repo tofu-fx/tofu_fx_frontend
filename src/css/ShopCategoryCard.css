@@ -9,7 +9,16 @@
   margin-bottom: 24px;
 
   position: relative;
+
   border-radius: 8px;
+  transition: 0.2s ease;
+  opacity:0.6;
+}
+
+.shop-category-card:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease;
+  opacity:1;
 }
 
 .shop-category-card .card-footer {
