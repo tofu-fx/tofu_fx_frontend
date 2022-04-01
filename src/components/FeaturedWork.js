@@ -37,7 +37,7 @@ class FeaturedWork extends React.Component {
 
   render() {
     return(
-      <div className="featured-work">
+      <div className="featured-work" id="featured_work">
         <div className="title"><div className="text">FEATURED WORK</div></div>
         <div className="main-carousel" data-flickity='{ "wrapAround": true, "imagesLoaded": true, "groupCells": 1, "autoPlay": 7000 }'>
           <img src={feat1} alt="featured_work" />

@@ -41,7 +41,7 @@ class ShopHome extends React.Component {
 
   render() {
     return(
-      <div className="shop">
+      <div className="shop" id="shop">
         <div className="title"><div className="text">SHOP</div></div>
         <div className="categories">
           <div className="inner">

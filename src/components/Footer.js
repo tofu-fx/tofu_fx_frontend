@@ -33,7 +33,7 @@ class Footer extends React.Component {
 
   render() {
     return(
-      <div className="footer">
+      <div className="footer" id="footer">
         <div className="footer-title">
           CONTACT
         </div>
