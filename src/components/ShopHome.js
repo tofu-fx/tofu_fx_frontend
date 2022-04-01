@@ -40,7 +40,6 @@ class ShopHome extends React.Component {
   }
 
   render() {
-    console.log(this.state);
     return(
       <div className="shop">
         <div className="title"><div className="text">SHOP</div></div>

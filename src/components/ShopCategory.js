@@ -41,7 +41,6 @@ class ShopCategory extends React.Component {
 
         const product_quantity = products.length;
         const category = this.props.category;
-        console.log(category);
 
         this.setState({ products, product_quantity, category});
     })
