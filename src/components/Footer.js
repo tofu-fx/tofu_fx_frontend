@@ -44,7 +44,7 @@ class Footer extends React.Component {
           <a href={this.state.youtube_link} target="_blank" rel="noopener noreferrer"><img src={youtube_logo} alt="youtube"/></a>
         </div>
         <div className="extra-text">
-          © Tofu 2022, Website built from scratch by <a href="https://twitter.com/JacksonValdez03" target="_blank" rel="noopener noreferrer">Jackson Valdez</a>
+          © Tofu 2022, Website built by <a href="https://twitter.com/JacksonValdez03" target="_blank" rel="noopener noreferrer">Jackson Valdez</a><br/>This project is open source! You can view code <a href="https://github.com/tofu-fx" target="_blank" rel="noopener noreferrer">here</a>.
         </div>
       </div>
     );
