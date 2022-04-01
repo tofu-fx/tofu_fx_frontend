@@ -24,11 +24,11 @@ class FeaturedWork extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`https://tofufx-backend.herokuapp.com/socials?api_key=${process.env.REACT_APP_TOFU_BACKEND_API_KEY}`)
-      .then(response => {
-        const behance_link = response.data.behance;
-        this.setState({ behance_link });
-    })
+    // axios.get(`https://tofufx-backend.herokuapp.com/socials?api_key=${process.env.REACT_APP_TOFU_BACKEND_API_KEY}`)
+    //   .then(response => {
+    //     const behance_link = response.data.behance;
+    //     this.setState({ behance_link });
+    // })
   }
 
   render() {

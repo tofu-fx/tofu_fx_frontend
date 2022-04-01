@@ -18,20 +18,24 @@ class About extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`https://tofufx-backend.herokuapp.com/about_me?api_key=${process.env.REACT_APP_TOFU_BACKEND_API_KEY}`)
+    const google_sheet_id = "1dezRYzkCZ8VrfsbO2EKVoF9D_hIHsKAF_BuI7b83phA";
+    const selection_1 = "B2";
+    const selection_2 = "B2";
+
+    axios.get(`https://tofufx-backend.herokuapp.com/${selection_1}/${selection_2}/${google_sheet_id}?api_key=${process.env.REACT_APP_TOFU_BACKEND_API_KEY}`)
       .then(response => {
-        const about_me = response.data.data;
+        const about_me = response.data.values[0][0];
         this.setState({ about_me });
      })
 
-    axios.get(`https://tofufx-backend.herokuapp.com/socials?api_key=${process.env.REACT_APP_TOFU_BACKEND_API_KEY}`)
-      .then(response => {
-        const instagram_link = response.data.instagram;
-        const twitter_link = response.data.twitter;
-        const behance_link = response.data.behance;
-        const youtube_link = response.data.youtube;
-        this.setState({ instagram_link, twitter_link, behance_link, youtube_link });
-    })
+    // axios.get(`https://tofufx-backend.herokuapp.com/socials?api_key=${process.env.REACT_APP_TOFU_BACKEND_API_KEY}`)
+    //   .then(response => {
+    //     const instagram_link = response.data.instagram;
+    //     const twitter_link = response.data.twitter;
+    //     const behance_link = response.data.behance;
+    //     const youtube_link = response.data.youtube;
+    //     this.setState({ instagram_link, twitter_link, behance_link, youtube_link });
+    // })
   }
 
   render() {
