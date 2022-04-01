@@ -8,6 +8,8 @@ import './custom_js/Navbar.js'
 //Imports All Components
 import HomePage from './components/HomePage.js';
 import ShopCategory from './components/ShopCategory.js';
+import Commissions from './components/Commissions.js';
+import ShoppingCart from './components/ShoppingCart.js';
 
 
 ReactDOM.render(
@@ -16,8 +18,8 @@ ReactDOM.render(
       <Routes>
 
         <Route path="/" element={<HomePage />} />
-        <Route path="/commissions" element={<div>Commissions</div>} />
-        <Route path="/cart" element={<div>Shopping Cart</div>} />
+        <Route path="/commissions" element={<Commissions/>} />
+        <Route path="/cart" element={<ShoppingCart/>} />
 
         <Route path="/shop/banners" element={<ShopCategory category="banners" main_title="BANNERS"/>} />
         <Route path="/shop/headers" element={<ShopCategory category="headers" main_title="HEADERS"/>} />
