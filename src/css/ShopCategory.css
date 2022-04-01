@@ -16,18 +16,15 @@
   height: 30px;
   margin: auto;
   border-bottom: 1px solid #EFEFEF;
-  /* background-color: orange; */
 }
 
 .shop-category .info .results {
   padding-left: 10px;
   color: #808080;
   font-family: 'Work Sans';
-  /* background-color: green; */
 }
 
 .shop-category .products {
-  background-color: orange;
   width: 90%;
   margin: auto;
 }

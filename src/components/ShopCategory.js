@@ -59,7 +59,11 @@ class ShopCategory extends React.Component {
           </div>
         </div>
         <div className="products">
-
+          {
+            this.state.products.map(product => {
+              return( <ProductCard product_data={product}/> )
+            })
+          }
         </div>
       </div>
     )
