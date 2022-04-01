@@ -3,6 +3,10 @@ body {
   margin:0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "Akira Expanded";
   src: url("./fonts/AkiraExpanded.otf") format("truetype");
