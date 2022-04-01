@@ -9,7 +9,7 @@ class ShopCategoryCard extends React.Component {
         <div className="background" style={{backgroundImage: `url(${this.props.background})`}}></div>
         <div className="card-footer">
           <div className="card-title">
-            {this.props.card_name}
+            <p>{this.props.card_name}</p>
           </div>
         </div>
       </a>
