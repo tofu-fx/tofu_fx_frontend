@@ -7,6 +7,7 @@ import './custom_js/Navbar.js'
 
 //Imports All Components
 import HomePage from './components/HomePage.js';
+import ShopCategory from './components/ShopCategory.js';
 
 
 ReactDOM.render(
@@ -15,6 +16,8 @@ ReactDOM.render(
       <Routes>
 
         <Route path="/" element={<HomePage />} />
+
+        <Route path="/shop/banners" element={<ShopCategory />} />
 
       </Routes>
     </Router>
