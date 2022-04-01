@@ -17,7 +17,12 @@ ReactDOM.render(
 
         <Route path="/" element={<HomePage />} />
 
-        <Route path="/shop/banners" element={<ShopCategory />} />
+        <Route path="/shop/banners" element={<ShopCategory category="banners" main_title="BANNERS"/>} />
+        <Route path="/shop/headers" element={<ShopCategory category="headers" main_title="HEADERS"/>} />
+        <Route path="/shop/logos" element={<ShopCategory category="logos" main_title="LOGOS"/>} />
+        <Route path="/shop/streaming_graphics" element={<ShopCategory category="streaming_graphics" main_title="STREAMING GRAPHICS"/>} />
+        <Route path="/shop/thumbnails" element={<ShopCategory category="thumbnails" main_title="THUMBNAILS"/>} />
+        <Route path="/shop/wallpapers" element={<ShopCategory category="wallpapers" main_title="WALLPAPERS"/>} />
 
       </Routes>
     </Router>

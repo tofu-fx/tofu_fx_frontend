@@ -1,15 +1,50 @@
 import React from 'react';
+import axios from 'axios';
+
 import NavigateBar from './NavigateBar.js';
-import Footer from './Footer.js';
-import ShopProductCard from './ShopProductCard.js';
+import ProductCard from './ProductCard.js';
 
 import '../css/ShopCategory.css';
 
 
 class ShopCategory extends React.Component {
   state = {
-    shop_title: "BANNERS",
-    results: "12"
+    shop_title: this.props.main_title,
+    category: "",
+    products: [],
+    product_quantity: null
+  }
+
+  componentDidMount() {
+    let google_sheet_id = "1dezRYzkCZ8VrfsbO2EKVoF9D_hIHsKAF_BuI7b83phA";
+    let selection_1 = "A25";
+    let selection_2 = "F50";
+
+    // FETCH ALL PRODUCTS
+    axios.get(`https://tofufx-backend.herokuapp.com/google_sheets/${selection_1}/${selection_2}/${google_sheet_id}?api_key=${process.env.REACT_APP_TOFU_BACKEND_API_KEY}`)
+      .then(response => {
+
+        const all_products = response.data.values.map(product => {
+          return {
+            title: product[0],
+            download_link: product[1],
+            price: product[2],
+            category: product[3],
+            description: product[4],
+            display_img: product[5]
+          }
+        })
+
+        const products = all_products.filter(product => {
+          return (product.category === this.props.category && product.title && product.download_link && product.price && product.category && product.description && product.display_img)
+        })
+
+        const product_quantity = products.length;
+        const category = this.props.category;
+        console.log(category);
+
+        this.setState({ products, product_quantity, category});
+    })
   }
 
   render() {
@@ -21,7 +56,7 @@ class ShopCategory extends React.Component {
         </div>
         <div className="info">
           <div className="results">
-            {this.state.results} results
+            {this.state.product_quantity} results
           </div>
         </div>
         <div className="products">
