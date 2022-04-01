@@ -16,6 +16,8 @@ ReactDOM.render(
       <Routes>
 
         <Route path="/" element={<HomePage />} />
+        <Route path="/commissions" element={<div>Commissions</div>} />
+        <Route path="/cart" element={<div>Shopping Cart</div>} />
 
         <Route path="/shop/banners" element={<ShopCategory category="banners" main_title="BANNERS"/>} />
         <Route path="/shop/headers" element={<ShopCategory category="headers" main_title="HEADERS"/>} />

@@ -21,7 +21,7 @@ function NavigateBar() {
           <b><a href="/" className="hover-underline-animation">HOME</a></b>
           <b><a href="/#featured_work" className="hover-underline-animation">FEATURED</a></b>
           <b><a href="/#shop" className="hover-underline-animation">SHOP</a></b>
-          <b><a href="/" className="hover-underline-animation">COMMISSIONS</a></b>
+          <b><a href="/commissions" className="hover-underline-animation">COMMISSIONS</a></b>
           <b><a href="/#footer" className="hover-underline-animation">CONTACT</a></b>
         </div>
         <button onClick={() => setShowLinks(!showLinks)}> <img src={dropdown_icon} height="19" alt="options"/></button>
