@@ -12,7 +12,7 @@ class ShopCategory extends React.Component {
     shop_title: this.props.main_title,
     category: "",
     products: [],
-    product_quantity: null
+    product_quantity: 0
   }
 
   componentDidMount() {
