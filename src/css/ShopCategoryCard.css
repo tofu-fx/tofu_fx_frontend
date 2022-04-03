@@ -13,7 +13,7 @@
 .shop-category-card .background {
   border-radius: 8px;
   width: 100%;
-  height: 364.8px;
+  height: 364.8px; /* Needs to be calculated */
   background-size: cover;
   opacity: 0.7;
   transition: 0.2s ease;
