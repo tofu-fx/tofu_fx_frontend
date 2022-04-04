@@ -11,7 +11,7 @@ function ProductCard(props) {
           { props.product_data.title }
         </div>
         <div className="product-price">
-          <b>${ props.product_data.price }.00</b>
+          <b>${ props.product_data.price }</b>
         </div>
       </div>
     </a>
