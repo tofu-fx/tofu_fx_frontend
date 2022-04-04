@@ -3,6 +3,7 @@ import axios from 'axios';
 
 import NavigateBar from './NavigateBar.js';
 import ProductCard from './ProductCard.js';
+import Footer from './Footer.js';
 
 import '../css/ShopCategory.css';
 
@@ -67,6 +68,7 @@ class ShopCategory extends React.Component {
             }
           </div>
         </div>
+        <Footer/>
       </div>
     )
   }
