@@ -18,7 +18,7 @@ class ShopCategory extends React.Component {
   componentDidMount() {
     let google_sheet_id = "1dezRYzkCZ8VrfsbO2EKVoF9D_hIHsKAF_BuI7b83phA";
     let selection_1 = "A25";
-    let selection_2 = "F50";
+    let selection_2 = "G50";
 
     // FETCH ALL PRODUCTS
     axios.get(`https://tofufx-backend.herokuapp.com/google_sheets/${selection_1}/${selection_2}/${google_sheet_id}?api_key=${process.env.REACT_APP_TOFU_BACKEND_API_KEY}`)
@@ -26,12 +26,13 @@ class ShopCategory extends React.Component {
 
         const all_products = response.data.values.map(product => {
           return {
-            title: product[0],
-            download_link: product[1],
-            price: product[2],
-            category: product[3],
-            description: product[4],
-            display_img: product[5]
+            id: product[0],
+            price: product[1],
+            download_link: product[2],
+            title: product[3],
+            category: product[4],
+            description: product[5],
+            display_img: product[6]
           }
         })
 

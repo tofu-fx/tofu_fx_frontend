@@ -4,7 +4,7 @@ import '../css/ProductCard.css';
 
 function ProductCard(props) {
   return(
-    <a href="/" className="product-card">
+    <a href={ `/shop/products/${props.product_data.id}` } className="product-card">
       <img src={props.product_data.display_img} alt="hero"/>
       <div className="product-footer">
         <div className="product-title">
