@@ -11,8 +11,6 @@
 }
 
 .shop-category .products {
-  /* background-color: orange; */
-  position: relative;
   width: 100%;
   justify-content: center;
 
@@ -20,7 +18,6 @@
 }
 .shop-category .products .inner {
   width: 1200px;
-  /* background-color: green; */
 }
 
 
