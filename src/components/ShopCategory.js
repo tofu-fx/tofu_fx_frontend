@@ -53,17 +53,18 @@ class ShopCategory extends React.Component {
         <div className="title">
           {this.state.shop_title}
         </div>
-        <div className="info">
-          <div className="results">
-            {this.state.product_quantity} results
-          </div>
-        </div>
+
         <div className="products">
-          {
-            this.state.products.map(product => {
-              return( <ProductCard product_data={product}/> )
-            })
-          }
+          <div className="inner">
+            <div className="results">
+              { this.state.product_quantity } results
+            </div>
+            {
+              this.state.products.map(product => {
+                return( <ProductCard product_data={product}/> )
+              })
+            }
+          </div>
         </div>
       </div>
     )
